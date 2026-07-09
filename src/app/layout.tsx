@@ -23,14 +23,40 @@ export default function RootLayout({
 }>) {
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'KREWEX',
+    '@type': 'Organization',
+    '@id': 'https://krewex.com/#organization',
+    name: 'Krewex Technologies Private Limited',
+    legalName: 'Krewex Technologies Private Limited',
     url: 'https://krewex.com/',
+    logo: 'https://krewex.com/logo.png',
+    email: 'info@krewex.com',
     sameAs: [
       'https://linkedin.com/company/krewexco',
       'https://x.com/KREWEXC0',
       'https://facebook.com/krewexco',
       'https://instagram.com/krewexco'
+    ],
+    subOrganization: [
+      {
+        "@type": "Organization",
+        "name": "Taj HR Services",
+        "url": "https://tajhrservices.com"
+      },
+      {
+        "@type": "Organization",
+        "name": "Aegis Krew International",
+        "url": "https://aegiskrew.com"
+      },
+      {
+        "@type": "Organization",
+        "name": "Mahad Manpower Consultant",
+        "url": "https://www.mahadmanpowers.co.in"
+      },
+      {
+        "@type": "Organization",
+        "name": "Neuraforge Tech",
+        "url": "https://neuraforge.tech"
+      }
     ]
   };
 
