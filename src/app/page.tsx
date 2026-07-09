@@ -111,6 +111,52 @@ export default function KREWEXLandingPage() {
           </div>
         </section>
 
+        {/* The Krewex Ecosystem */}
+        <section className="py-24 border-t border-slate-200">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-[#001C5D] mb-6">The Krewex Ecosystem</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Krewex Technologies Private Limited serves as the centralized digital infrastructure and parent organization for a global portfolio of elite human capital and technology firms.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            
+            {/* Mahad Manpower */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-[#001C5D] mb-3">Mahad Manpower Consultant</h3>
+              <p className="text-slate-600 leading-relaxed">
+                A premier global recruitment agency specializing in mass workforce mobilization and heavy-industry talent deployment for mega-projects across the Middle East.
+              </p>
+            </div>
+
+            {/* Aegis Krew */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-[#001C5D] mb-3">Aegis Krew International</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Delivering high-tier corporate resourcing, executive search, and specialized human capital solutions with absolute legal and skill verification.
+              </p>
+            </div>
+
+            {/* Taj HR */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-[#001C5D] mb-3">Taj HR Services</h3>
+              <p className="text-slate-600 leading-relaxed">
+                Providing rapid-response talent acquisition and localized workforce management to ensure frictionless deployment across diverse operational sectors.
+              </p>
+            </div>
+
+            {/* Neuraforge Tech */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-[#001C5D] mb-3">Neuraforge Tech</h3>
+              <p className="text-slate-600 leading-relaxed">
+                The digital backbone of the ecosystem. An advanced IT firm architecting the automation, data matching, and infrastructure grids that power our borderless scale.
+              </p>
+            </div>
+
+          </div>
+        </section>
+
       </main>
 
       {/* Corporate Group Footer */}
