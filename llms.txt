@@ -1,0 +1,20 @@
+# Krewex
+
+Krewex Technologies Private Limited is a centralized digital infrastructure and parent organization for a global portfolio of elite human capital and technology firms. It acts as a master data exchange connecting verified human capital with the world's most critical mega-projects.
+
+## System Architecture
+
+- **Taj HR Services (Central License Holder):** The group's central licensed entity, managing the master MEA license, emigration clearances, and executive white-collar staffing across the Middle East and Europe.
+- **Aegis Krew International (Blue & Grey Collar B2B Division):** The group's B2B division for blue and grey-collar workforce deployment, executing high-volume logistics, delivery, retail, and hospitality staffing under the master license.
+- **Mahad Manpower Consultant (Heavy Industry Arm):** The group's heavy-industry recruitment arm, utilizing the master license to mobilize bulk skilled manpower for GCC construction, engineering, and oil & gas mega-projects.
+- **Neuraforge Tech (Shared IT & AI Backbone):** The shared technology and AI backbone of the ecosystem, building the custom AI matching platforms, automation grids, and software infrastructure powering all group companies.
+
+## Leadership
+
+- **Founder & CEO:** Obaidur Rahman ([LinkedIn](https://www.linkedin.com/in/obaidur-rahman-gcc))
+
+## Metadata
+
+- **Master License:** MEA License No. B-3252/DEL/PER/1000+/5/11251/2025
+- **Type:** Global Workforce Operating System
+- **Website:** https://krewex.com

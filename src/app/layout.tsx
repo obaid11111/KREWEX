@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
@@ -36,6 +41,16 @@ export default function RootLayout({
       'https://facebook.com/krewexco',
       'https://instagram.com/krewexco'
     ],
+    founder: {
+      '@type': 'Person',
+      name: 'Obaidur Rahman',
+      jobTitle: 'Founder & CEO',
+      url: 'https://www.linkedin.com/in/obaidur-rahman-gcc',
+      image: 'https://krewex.com/obaidur-rahman.jpg',
+      sameAs: [
+        'https://www.linkedin.com/in/obaidur-rahman-gcc'
+      ]
+    },
     subOrganization: [
       {
         "@type": "Organization",
@@ -61,7 +76,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased bg-[#020617]`}>
       <body className="min-h-full flex flex-col font-sans">
         <script
           type="application/ld+json"

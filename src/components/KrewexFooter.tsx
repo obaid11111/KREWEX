@@ -8,10 +8,10 @@ export default function KrewexFooter() {
       <style dangerouslySetInnerHTML={{
         __html: `
   .krewex-footer {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    border-top: 1px solid #e2e8f0;
+    font-family: var(--font-space-grotesk), Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    border-top: 4px solid #000000;
     background: #ffffff;
-    padding: 20px 0;
+    padding: 30px 0;
     margin-top: auto;
   }
   .krewex-footer-inner {
@@ -36,18 +36,21 @@ export default function KrewexFooter() {
     object-fit: contain;
   }
   .krewex-footer-divider {
-    width: 1px;
+    width: 2px;
     height: 32px;
-    background: #e2e8f0;
+    background: #000000;
   }
   .krewex-footer-copy {
     font-size: 10px;
-    color: #94a3b8;
+    color: #475569;
     line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
   .krewex-footer-copy strong {
-    color: #64748b;
-    font-weight: 600;
+    color: #0f172a;
+    font-weight: 900;
   }
   .krewex-footer-right {
     display: flex;
@@ -59,10 +62,10 @@ export default function KrewexFooter() {
   }
   .krewex-footer-label {
     font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #94a3b8;
+    color: #0f172a;
     flex-shrink: 0;
   }
   .krewex-marquee-wrap {
@@ -98,7 +101,7 @@ export default function KrewexFooter() {
     width: auto;
     max-width: 110px;
     object-fit: contain;
-    opacity: 0.55;
+    opacity: 0.8;
     filter: grayscale(100%);
     transition: opacity 0.3s, filter 0.3s;
     flex-shrink: 0;
