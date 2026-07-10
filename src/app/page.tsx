@@ -8,7 +8,7 @@ export default function KREWEXLandingPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 selection:bg-[#00CFFF] selection:text-slate-900">
+    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 selection:bg-[#00CFFF] selection:text-slate-900 overflow-x-hidden w-full">
       
       {/* Navigation Bar */}
       <nav className="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-md border-b-4 border-slate-900">
@@ -38,7 +38,7 @@ export default function KREWEXLandingPage() {
         {/* Hero Section */}
         <section className="px-6 lg:px-8 py-24 lg:py-32 flex flex-col items-center text-center max-w-6xl mx-auto">
           
-          <h1 className="text-6xl lg:text-8xl font-black tracking-tighter text-slate-900 leading-[1.0] mb-8 font-[family-name:var(--font-space-grotesk)] uppercase">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-black tracking-tighter text-slate-900 leading-[1.0] mb-8 font-[family-name:var(--font-space-grotesk)] uppercase">
             Building The World's <br/>
             <span className="text-[#00CFFF] drop-shadow-[2px_2px_0px_rgba(15,23,42,1)]">Workforce Infrastructure.</span>
           </h1>
@@ -90,7 +90,7 @@ export default function KREWEXLandingPage() {
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="mb-20 text-center">
               <p className="text-sm font-black text-slate-500 uppercase tracking-[0.3em] mb-2 font-[family-name:var(--font-space-grotesk)]">THE SYSTEM</p>
-              <h2 className="text-4xl lg:text-7xl font-black text-slate-900 mb-6 font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase leading-none">
+              <h2 className="text-3xl sm:text-5xl lg:text-7xl font-black text-slate-900 mb-6 font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase leading-none">
                 THAT OWNS EVERYTHING.
               </h2>
             </div>
@@ -307,12 +307,12 @@ export default function KREWEXLandingPage() {
 
           <div className="max-w-6xl mx-auto relative z-10">
             <div className="text-center mb-24">
-              <h2 className="text-5xl lg:text-7xl font-black mb-4 text-white font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase">The Core Gap</h2>
+              <h2 className="text-3xl sm:text-5xl lg:text-7xl font-black mb-4 text-white font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase">The Core Gap</h2>
               <p className="text-2xl text-[#00CFFF] font-bold tracking-tight">Global workforce mobility is critically fragmented.</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-4 border-black p-12 shadow-[12px_12px_0px_rgba(0,207,255,1)]">
+              <div className="bg-white border-4 border-black p-6 sm:p-12 shadow-[12px_12px_0px_rgba(0,207,255,1)]">
                 <h3 className="text-3xl font-black mb-8 text-slate-900 flex items-center gap-4 font-[family-name:var(--font-space-grotesk)] uppercase tracking-tighter">
                   <div className="w-3 h-10 bg-red-500"></div>
                   Worker Failure Points
@@ -339,7 +339,7 @@ export default function KREWEXLandingPage() {
             </div>
             
             <div className="mt-24 text-center">
-              <p className="text-4xl lg:text-5xl font-black text-slate-900 bg-[#00CFFF] py-8 px-12 inline-block font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase border-4 border-black shadow-[8px_8px_0px_rgba(255,255,255,1)]">
+              <p className="text-xl sm:text-4xl lg:text-5xl font-black text-slate-900 bg-[#00CFFF] py-4 px-6 sm:py-8 sm:px-12 inline-block font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase border-4 border-black shadow-[8px_8px_0px_rgba(255,255,255,1)]">
                 KREWEX exists to solve this.
               </p>
             </div>
@@ -350,7 +350,7 @@ export default function KREWEXLandingPage() {
         <section className="py-32 px-6 lg:px-8 bg-white border-b-4 border-black">
           <div className="max-w-7xl mx-auto">
             <div className="mb-24 text-center">
-              <h2 className="text-5xl lg:text-7xl font-black text-slate-900 mb-6 font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase">The Ecosystem Architecture</h2>
+              <h2 className="text-3xl sm:text-5xl lg:text-7xl font-black text-slate-900 mb-6 font-[family-name:var(--font-space-grotesk)] tracking-tighter uppercase">The Ecosystem Architecture</h2>
               <p className="text-2xl text-slate-600 font-bold">A vertically integrated global workforce infrastructure platform.</p>
             </div>
 
