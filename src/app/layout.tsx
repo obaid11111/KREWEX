@@ -15,6 +15,8 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "KREWEX | The Centralized Infrastructure for Global Human Capital",
   description: "KREWEX is the master data exchange connecting verified human capital with the world's most critical mega-projects.",
+  metadataBase: new URL("https://krewex.com"),
+  alternates: { canonical: "/" },
   openGraph: {
     siteName: "KREWEX",
     url: "https://krewex.com",
